@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8138721b-e6ce-4b4a-b411-fa27e4228219" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AlgortimosDeOrdenamiento.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Generate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/MainTest.java" afterDir="false" />
+    <list default="true" id="8138721b-e6ce-4b4a-b411-fa27e4228219" name="Changes" comment="El profiler sigue sin funcionar :(">
+      <change afterPath="$PROJECT_DIR$/src/Model/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/UI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -111,7 +106,16 @@
       <workItem from="1675531475535" duration="578000" />
       <workItem from="1675532083996" duration="154000" />
       <workItem from="1675532258354" duration="654000" />
+      <workItem from="1675533620373" duration="1457000" />
     </task>
+    <task id="LOCAL-00001" summary="El profiler sigue sin funcionar :(">
+      <created>1675533897612</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675533897612</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,5 +131,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="El profiler sigue sin funcionar :(" />
+    <option name="LAST_COMMIT_MESSAGE" value="El profiler sigue sin funcionar :(" />
   </component>
 </project>
