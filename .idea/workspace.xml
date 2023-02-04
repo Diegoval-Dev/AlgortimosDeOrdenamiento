@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8138721b-e6ce-4b4a-b411-fa27e4228219" name="Changes" comment="El profiler sigue sin funcionar :(">
-      <change afterPath="$PROJECT_DIR$/src/Model/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UI/UI.java" afterDir="false" />
+    <list default="true" id="8138721b-e6ce-4b4a-b411-fa27e4228219" name="Changes" comment="UI Creado">
+      <change afterPath="$PROJECT_DIR$/src/Model/ComparadorEnteros.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Generate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Generate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/MainTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,21 +36,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "last_opened_file_path": "D:/uvg2023ed10/03_Ejemplo_Generics_Ordenamiento",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -57,7 +60,7 @@
       <recent name="Test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.MainTest.main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Controller.Main" />
       <module name="AlgortimosDeOrdenamiento" />
@@ -89,8 +92,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.MainTest.main" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -106,7 +109,7 @@
       <workItem from="1675531475535" duration="578000" />
       <workItem from="1675532083996" duration="154000" />
       <workItem from="1675532258354" duration="654000" />
-      <workItem from="1675533620373" duration="1457000" />
+      <workItem from="1675533620373" duration="5223000" />
     </task>
     <task id="LOCAL-00001" summary="El profiler sigue sin funcionar :(">
       <created>1675533897612</created>
@@ -115,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675533897612</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="UI Creado">
+      <created>1675535290069</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675535290069</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +144,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="El profiler sigue sin funcionar :(" />
-    <option name="LAST_COMMIT_MESSAGE" value="El profiler sigue sin funcionar :(" />
+    <MESSAGE value="UI Creado" />
+    <option name="LAST_COMMIT_MESSAGE" value="UI Creado" />
   </component>
 </project>
