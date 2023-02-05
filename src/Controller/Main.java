@@ -67,6 +67,18 @@ public class Main {
         ui.print("Numeros ordenados");
         imprimirArray(arrOrdenado);
     }
+    public static void QuickSort(int n){
+        QuickSort quickSort = new QuickSort();
+        Integer[] arrSinOrdenar = new Integer[n];
+        Integer[] arrOrdenado = new Integer[n];
+        arrSinOrdenar = gn.numbers(n);
+        ui.print("Numeros desordenados");
+        imprimirArray(arrSinOrdenar);
+        ui.print("Ordenando...");
+        arrOrdenado = quickSort.quickSort(arrSinOrdenar, 0, n - 1);
+        ui.print("Numeros ordenados");
+        imprimirArray(arrOrdenado);
+    }
     public static void imprimirArray(Integer[] arr){
 
         for(int i = 0; i < arr.length; i++){

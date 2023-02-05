@@ -1,6 +1,13 @@
 package Model;
 
 public class MergeSort {
+    /**
+     * Algoritmo extraido de: https://www.geeksforgeeks.org/merge-sort/
+     * @param arr
+     * @param l
+     * @param m
+     * @param r
+     */
     public void merge(Integer arr[], int l, int m, int r) {
         int n1 = m - l + 1;
         int n2 = r - m;

@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8138721b-e6ce-4b4a-b411-fa27e4228219" name="Changes" comment="GnomeSort implementado">
-      <change afterPath="$PROJECT_DIR$/src/Model/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Main.java" afterDir="false" />
+    <list default="true" id="8138721b-e6ce-4b4a-b411-fa27e4228219" name="Changes" comment="MergeSort implementado">
+      <change afterPath="$PROJECT_DIR$/src/Model/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/MergeSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +105,7 @@
       <workItem from="1675531475535" duration="578000" />
       <workItem from="1675532083996" duration="154000" />
       <workItem from="1675532258354" duration="654000" />
-      <workItem from="1675533620373" duration="8398000" />
+      <workItem from="1675533620373" duration="8728000" />
     </task>
     <task id="LOCAL-00001" summary="El profiler sigue sin funcionar :(">
       <created>1675533897612</created>
@@ -136,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675556399196</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="MergeSort implementado">
+      <created>1675557009671</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675557009671</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +164,7 @@
     <MESSAGE value="UI Creado" />
     <MESSAGE value="Bubble sort implementado" />
     <MESSAGE value="GnomeSort implementado" />
-    <option name="LAST_COMMIT_MESSAGE" value="GnomeSort implementado" />
+    <MESSAGE value="MergeSort implementado" />
+    <option name="LAST_COMMIT_MESSAGE" value="MergeSort implementado" />
   </component>
 </project>
