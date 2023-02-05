@@ -1,6 +1,12 @@
 package Model;
 
 public class QuickSort {
+    /**
+     * Algoritmo extraido de: https://www.geeksforgeeks.org/Quick-sort/
+     * @param arr
+     * @param i
+     * @param j
+     */
     public static void swap(Integer[] arr, int i, int j)
     {
         int temp = arr[i];

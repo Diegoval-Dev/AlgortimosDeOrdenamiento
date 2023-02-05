@@ -21,10 +21,10 @@ public class Main {
                 MergeSort(cant);
                 break;
             case 3:
-                //Quick sort
+                QuickSort(cant);
                 break;
             case 4:
-                //Radix sort
+                RadixSort(cant);
                 break;
             case 5:
                 BubbleSort(cant);
@@ -76,6 +76,18 @@ public class Main {
         imprimirArray(arrSinOrdenar);
         ui.print("Ordenando...");
         arrOrdenado = quickSort.quickSort(arrSinOrdenar, 0, n - 1);
+        ui.print("Numeros ordenados");
+        imprimirArray(arrOrdenado);
+    }
+    public static void RadixSort(int n){
+        RadixSort radixSort = new RadixSort();
+        Integer[] arrSinOrdenar = new Integer[n];
+        Integer[] arrOrdenado = new Integer[n];
+        arrSinOrdenar = gn.numbers(n);
+        ui.print("Numeros desordenados");
+        imprimirArray(arrSinOrdenar);
+        ui.print("Ordenando...");
+        arrOrdenado = radixSort.radixsort(arrSinOrdenar,arrSinOrdenar.length);
         ui.print("Numeros ordenados");
         imprimirArray(arrOrdenado);
     }
