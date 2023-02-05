@@ -3,6 +3,7 @@ package Controller;
 import Model.BubbleSort;
 import Model.ComparadorEnteros;
 import Model.Generate;
+import Model.GnomeSort;
 import UI.UI;
 
 import java.lang.reflect.Array;
@@ -10,13 +11,14 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
+    public static UI ui = new UI();
+    public static Generate gn = new Generate();
     public static void main(String[] args) {
-        UI ui = new UI();
         int menu = ui.menu();
         int cant = ui.cant();
         switch (menu){
             case 1:
-                //Gnome sort
+                GnomeSort(cant);
                 break;
             case 2:
                 //Merge sort
@@ -33,11 +35,33 @@ public class Main {
         }
     }
     public static void BubbleSort(int n){
-        Generate gn = new Generate();
         BubbleSort<Integer> bubbleSort = new BubbleSort<Integer>();
         Integer[] arrSinOrdenar = new Integer[n];
         Integer[] arrOrdenado = new Integer[n];
         arrSinOrdenar = gn.numbers(n);
+        ui.print("Numeros desordenados");
+        imprimirArray(arrSinOrdenar);
+        ui.print("Ordenando...");
         arrOrdenado = bubbleSort.sort(arrSinOrdenar,new ComparadorEnteros<Integer>());
+        ui.print("Numeros ordenados");
+        imprimirArray(arrOrdenado);
+    }
+    public static void GnomeSort(int n){
+        GnomeSort gnS = new GnomeSort();
+        Integer[] arrSinOrdenar = new Integer[n];
+        Integer[] arrOrdenado = new Integer[n];
+        arrSinOrdenar = gn.numbers(n);
+        ui.print("Numeros desordenados");
+        imprimirArray(arrSinOrdenar);
+        ui.print("Ordenando...");
+        arrOrdenado = gnS.gnomeSort(arrSinOrdenar, arrSinOrdenar.length);
+        ui.print("Numeros ordenados");
+        imprimirArray(arrOrdenado);
+    }
+    public static void imprimirArray(Integer[] arr){
+
+        for(int i = 0; i < arr.length; i++){
+            ui.print(String.valueOf(arr[i]));
+        }
     }
 }
