@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8138721b-e6ce-4b4a-b411-fa27e4228219" name="Changes" comment="Bubble sort implementado">
-      <change afterPath="$PROJECT_DIR$/src/Model/GnomeSort.java" afterDir="false" />
+    <list default="true" id="8138721b-e6ce-4b4a-b411-fa27e4228219" name="Changes" comment="GnomeSort implementado">
+      <change afterPath="$PROJECT_DIR$/src/Model/MergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Main.java" afterDir="false" />
     </list>
@@ -106,7 +106,7 @@
       <workItem from="1675531475535" duration="578000" />
       <workItem from="1675532083996" duration="154000" />
       <workItem from="1675532258354" duration="654000" />
-      <workItem from="1675533620373" duration="7712000" />
+      <workItem from="1675533620373" duration="8398000" />
     </task>
     <task id="LOCAL-00001" summary="El profiler sigue sin funcionar :(">
       <created>1675533897612</created>
@@ -129,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675543910822</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="GnomeSort implementado">
+      <created>1675556399196</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675556399196</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +157,7 @@
     <MESSAGE value="El profiler sigue sin funcionar :(" />
     <MESSAGE value="UI Creado" />
     <MESSAGE value="Bubble sort implementado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bubble sort implementado" />
+    <MESSAGE value="GnomeSort implementado" />
+    <option name="LAST_COMMIT_MESSAGE" value="GnomeSort implementado" />
   </component>
 </project>

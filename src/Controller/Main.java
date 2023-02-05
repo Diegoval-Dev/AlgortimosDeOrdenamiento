@@ -1,9 +1,6 @@
 package Controller;
 
-import Model.BubbleSort;
-import Model.ComparadorEnteros;
-import Model.Generate;
-import Model.GnomeSort;
+import Model.*;
 import UI.UI;
 
 import java.lang.reflect.Array;
@@ -21,7 +18,7 @@ public class Main {
                 GnomeSort(cant);
                 break;
             case 2:
-                //Merge sort
+                MergeSort(cant);
                 break;
             case 3:
                 //Quick sort
@@ -55,6 +52,18 @@ public class Main {
         imprimirArray(arrSinOrdenar);
         ui.print("Ordenando...");
         arrOrdenado = gnS.gnomeSort(arrSinOrdenar, arrSinOrdenar.length);
+        ui.print("Numeros ordenados");
+        imprimirArray(arrOrdenado);
+    }
+    public static void MergeSort(int n){
+        MergeSort mergeSort = new MergeSort();
+        Integer[] arrSinOrdenar = new Integer[n];
+        Integer[] arrOrdenado = new Integer[n];
+        arrSinOrdenar = gn.numbers(n);
+        ui.print("Numeros desordenados");
+        imprimirArray(arrSinOrdenar);
+        ui.print("Ordenando...");
+        arrOrdenado = mergeSort.sort(arrSinOrdenar, 0, arrSinOrdenar.length - 1);
         ui.print("Numeros ordenados");
         imprimirArray(arrOrdenado);
     }
