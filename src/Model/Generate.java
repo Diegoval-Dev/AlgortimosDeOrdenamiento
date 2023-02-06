@@ -4,6 +4,11 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class Generate {
+    /**
+     * Generador de numeros aleatoreos
+     * @param cant cantidad de numeros aleatoreos
+     * @return array con numeros aleatoreos
+     */
     public Integer[] numbers(int cant){
         ArrayList<Integer> arr = new ArrayList<>();
         Random rand = new Random();

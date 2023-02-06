@@ -3,9 +3,9 @@ package Model;
 public class QuickSort {
     /**
      * Algoritmo extraido de: https://www.geeksforgeeks.org/Quick-sort/
-     * @param arr
-     * @param i
-     * @param j
+     * @param arr array a ordenar
+     * @param i a
+     * @param j a
      */
     public static void swap(Integer[] arr, int i, int j)
     {

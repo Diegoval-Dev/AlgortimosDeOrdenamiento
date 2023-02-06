@@ -3,9 +3,6 @@ package Controller;
 import Model.*;
 import UI.UI;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.Scanner;
 
 public class Main {
     public static UI ui = new UI();
@@ -42,6 +39,7 @@ public class Main {
         arrOrdenado = bubbleSort.sort(arrSinOrdenar,new ComparadorEnteros<Integer>());
         ui.print("Numeros ordenados");
         imprimirArray(arrOrdenado);
+
     }
     public static void GnomeSort(int n){
         GnomeSort gnS = new GnomeSort();

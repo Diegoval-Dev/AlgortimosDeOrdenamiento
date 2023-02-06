@@ -18,6 +18,12 @@ public class RadixSort {
         return mx;
     }
 
+    /**
+     *  contar
+     * @param arr array a ordenar
+     * @param n largo
+     * @param exp a
+     */
     public static void countSort(Integer arr[], int n, int exp)
     {
         int output[] = new int[n];
@@ -39,6 +45,13 @@ public class RadixSort {
         for (i = 0; i < n; i++)
             arr[i] = output[i];
     }
+
+    /**
+     * aa
+     * @param arr array a ordenar
+     * @param n a
+     * @return array ordenado
+     */
 
     public static Integer[] radixsort(Integer arr[], int n)
     {
